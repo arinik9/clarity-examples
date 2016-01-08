@@ -89,9 +89,15 @@
     </build>
 
     <profiles>
+		<profile>
+            <id>pdc04</id>
+            <activation><activeByDefault>true</activeByDefault></activation>
+            <properties>
+                <exampleName>pdc04</exampleName>
+            </properties>
+        </profile>
         <profile>
             <id>combatlog</id>
-            <activation><activeByDefault>true</activeByDefault></activation>
             <properties>
                 <exampleName>combatlog</exampleName>
             </properties>
