@@ -96,6 +96,12 @@
                 <exampleName>pdc04</exampleName>
             </properties>
         </profile>
+	<profile>
+            <id>pdc04_oldVersionDota</id>
+            <properties>
+                <exampleName>pdc04_oldVersionDota</exampleName>
+            </properties>
+        </profile>
         <profile>
             <id>combatlog</id>
             <properties>
